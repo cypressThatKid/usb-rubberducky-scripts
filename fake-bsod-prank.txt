@@ -1,0 +1,10 @@
+REM fake BSOD screen
+REM by cypress
+DELAY 800
+GUI r
+DELAY 200
+STRING http://fakebsod.com/windows-8-and-10
+DELAY 300
+ENTER
+DELAY 1000
+F11

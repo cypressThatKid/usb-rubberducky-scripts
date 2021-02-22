@@ -1,0 +1,7 @@
+REM temporarly disable network features on windows
+REM by: cypress
+GUI r
+DELAY 200
+STRING cmd /c ipconfig /release
+DELAY 100
+ENTER

